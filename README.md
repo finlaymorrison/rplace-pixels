@@ -2,7 +2,7 @@ The project can be compiled without any use of a build system due to its simplic
 
 g++ -O3 main.cpp -o prog
 
-An already compiled file for ARM64 Linux is already in the repository named 'prog'. If this binary will not work with your computer there are several ways to set up a C++ environment on your PC, for windows you can either download Visual Studio which comes with a compiler, or download the mingw compiler for windows.
+An already compiled file for AMD64 Linux is already in the repository named 'prog'. If this binary will not work with your computer there are several ways to set up a C++ environment on your PC, for windows you can either download Visual Studio which comes with a compiler, or download the mingw compiler for windows.
 
 The tool is relatively simple to run. It searches a given directory for all files and then reads them in, eliminates users if they did not place pixels in a given area and then saves the new dataset into a new file. THe program can be called from a command line as follows.
 
