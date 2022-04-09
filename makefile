@@ -1,7 +1,7 @@
 CXXFLAGS = -Ofast
 
-prog: main.cpp parse.h
-	g++ $^ $(CXXFLAGS) -o prog
+prog.out: main.cpp load.h
+	g++ main.cpp $(CXXFLAGS) -o prog.out
 
 clean:
 	rm prog
