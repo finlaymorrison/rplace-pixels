@@ -1,6 +1,6 @@
 The project can be compiled without any use of a build system due to its simplicity, it is as simple as:
 
-g++ -O2 main.cpp -o prog
+g++ -O3 main.cpp -o prog
 
 An already compiled file for ARM64 Linux is already in the repository named 'prog'. If this binary will not work with your computer there are several ways to set up a C++ environment on your PC, for windows you can either download Visual Studio which comes with a compiler, or download the mingw compiler for windows.
 
